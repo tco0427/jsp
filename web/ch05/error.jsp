@@ -19,7 +19,9 @@
                 관리자에게 문의해주세요..<br>
                 빠른시일내 복구하겠습니다.
                 <hr>
-                <%=exception%>
+                <%=exception%><br>
+                <%=exception.getMessage()%><br>
+                <%=exception.toString()%>
                 <hr>
             </td></tr>
         </table>
