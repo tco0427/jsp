@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <th>이메일</th>
-                <td><input type="text" name="ad_email" value="<%=ab.getAd_email()%>" maxlength="50"></td>
+                <td><input type="email" name="ad_email" value="<%=ab.getAd_email()%>" maxlength="50"></td>
             </tr>
             <tr>
                 <th>생 일</th>
